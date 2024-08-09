@@ -1,0 +1,10 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/buttonBackground</item>
+        <item name="colorPrimaryDark">@color/buttonBackground</item>
+        <item name="colorAccent">@color/buttonBackground</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

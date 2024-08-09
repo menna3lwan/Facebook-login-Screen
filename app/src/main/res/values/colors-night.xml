@@ -1,0 +1,8 @@
+<!-- res/values-night/colors.xml -->
+<resources>
+    <color name="background">#121212</color> <!-- Dark mode background -->
+    <color name="textPrimary">#FFFFFF</color> <!-- Dark mode primary text -->
+    <color name="textSecondary">#BDBDBD</color> <!-- Dark mode secondary text -->
+    <color name="buttonBackground">#BB86FC</color> <!-- Button color -->
+    <color name="editTextBorder">#424242</color> <!-- EditText border -->
+</resources>
