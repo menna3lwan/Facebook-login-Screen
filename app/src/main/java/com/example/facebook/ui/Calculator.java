@@ -19,7 +19,6 @@ public class Calculator extends AppCompatActivity {
         Intent intent = getIntent();
        String email = intent.getStringExtra("EMAIL");
 
-       binding.tvHello.setText("Welcome,\n"+email);
 
 
 

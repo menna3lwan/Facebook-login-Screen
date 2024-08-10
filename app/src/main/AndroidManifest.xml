@@ -8,22 +8,30 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Facebook"
         tools:targetApi="31">
+
+        <!-- SplashActivity set as the launcher activity -->
         <activity
-            android:name=".ui.Calculator"
-            android:exported="false" />
-        <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity to be launched after SplashActivity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true" />
+
+        <!-- Other activities -->
+        <activity
+            android:name=".ui.Calculator"
+            android:exported="false" />
+
     </application>
 
 </manifest>
